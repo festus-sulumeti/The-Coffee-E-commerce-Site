@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
         <div class="product">
             <img src="" alt="" class="product-img">
             <h2 class="product-title">${response[i].title}</h2>
-            <h4 class="product-category"></h4>
+            <h4 class="product-category">${response[i].category}</h4>
             <p class="product-description"></p>
             <div class="product-price-container">
                 <h3 class="product-price"></h3>
