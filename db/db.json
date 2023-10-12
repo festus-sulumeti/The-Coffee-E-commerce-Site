@@ -60,10 +60,10 @@
 
         {
             "id" : 8,
-            "title" : "Espresso",
+            "title" : "Turkish Coffee",
             "price" : 350,
-            "description" : "Espresso is a concentrated coffee made by forcing hot ater through finely-ground coffee beans",
-            "image" : "https://i.pinimg.com/564x/45/5d/fc/455dfc03aeb68cee9e29fc11293d6874.jpg"
+            "description" : "Finely ground coffee and sweetened with sugar and cardamom",
+            "image" : "https://i.pinimg.com/564x/8f/d0/f0/8fd0f03a70aa792dbd5aca747d60fa2d.jpg"
         },
 
         {
