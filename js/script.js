@@ -1,4 +1,4 @@
-const baseUrl = "http://localhost:3000/coffee";
+const baseUrl = "https://api.escuelajs.co/api/v1/products";
 
 document.addEventListener('DOMContentLoaded', function () {
     let products = document.querySelector('.products');
@@ -9,9 +9,9 @@ document.addEventListener('DOMContentLoaded', function () {
       for (let i = 0; i < response.length; i++ ){
         products.innerHTML += `
         <div class="product">
-            <img src="" alt="" class="product-img">
+            <img src="${response[i].images[1]}" alt="" class="product-img">
             <h2 class="product-title">${response[i].title}</h2>
-            <h4 class="product-category">${response[i].category}</h4>
+            <h4 class="product-category">${response[i].category.name}</h4>
             <p class="product-description"></p>
             <div class="product-price-container">
                 <h3 class="product-price"></h3>

@@ -4,7 +4,7 @@
             "id" : 1,
             "title" : "Espresso",
             "price" : 350,
-            "description" : "Espresso is a concentrated coffee made by forcing hot ater through finely-ground coffee beans",
+            "description" : "Espresso, a concentrated coffee made by forcing hot after through finely-ground coffee beans",
             "image" : "https://i.pinimg.com/564x/45/5d/fc/455dfc03aeb68cee9e29fc11293d6874.jpg"
         },
 
@@ -26,37 +26,37 @@
 
         {
             "id" : 4,
-            "title" : "Espresso",
-            "price" : 350,
-            "description" : "Espresso is a concentrated coffee made by forcing hot ater through finely-ground coffee beans",
-            "image" : "https://i.pinimg.com/564x/45/5d/fc/455dfc03aeb68cee9e29fc11293d6874.jpg"
+            "title" : "Americano",
+            "price" : 400,
+            "description" : "Made by diluting Espresso with hot water. its like milder coffee",
+            "image" : "https://i.pinimg.com/564x/0c/c5/22/0cc522b2844f5db2231045d10fb1ffbc.jpg"
         },
 
 
         {
             "id" : 5,
-            "title" : "Espresso",
-            "price" : 350,
-            "description" : "Espresso is a concentrated coffee made by forcing hot ater through finely-ground coffee beans",
-            "image" : "https://i.pinimg.com/564x/45/5d/fc/455dfc03aeb68cee9e29fc11293d6874.jpg"
+            "title" : "Macchiato",
+            "price" : 500,
+            "description" : "An Espresso 'stained' with a small amount of milk",
+            "image" : "https://i.pinimg.com/236x/0d/f5/02/0df502bcac70670ad060940dc2d6a961.jpg"
         },
 
 
         {
             "id" : 6,
-            "title" : "Espresso",
+            "title" : "Mocha",
             "price" : 350,
-            "description" : "Espresso is a concentrated coffee made by forcing hot ater through finely-ground coffee beans",
-            "image" : "https://i.pinimg.com/564x/45/5d/fc/455dfc03aeb68cee9e29fc11293d6874.jpg"
+            "description" : "Made with Espresso, chocolate and steamed milk",
+            "image" : "https://i.pinimg.com/236x/64/06/d6/6406d6ea581d7e87f22bff8f10a92944.jpg"
         },
 
         {
             "id" : 7,
-            "title" : "Espresso",
-            "price" : 350,
-            "description" : "Espresso is a concentrated coffee made by forcing hot ater through finely-ground coffee beans",
-            "image" : "https://i.pinimg.com/564x/45/5d/fc/455dfc03aeb68cee9e29fc11293d6874.jpg"
-        },
+            "title" : "Ristretto",
+            "price" : 380,
+            "description" : "Concentrated form of Espresso with shorter extraction time",
+            "image" : "https://i.pinimg.com/564x/c3/4a/ed/c34aedd173018f1c4459562db618d178.jpg"
+        },    
 
         {
             "id" : 8,
