@@ -74,3 +74,15 @@ coffeeSearch.addEventListener('input', (e) => {
 
 // Initialize the coffee list by fetching data from the JSON file
 fetchCoffeeData();
+
+
+//Activating the waitlist
+const waitlistB = document.getElementById('waitlist');
+
+waitlistB.addEventListener('click', function(){
+    waitlistB.disabled = true;
+
+    waitlistB.textContent = "Adding to the waitlist";
+
+    alert("Thank you, you have now been added to the wait list")
+})
