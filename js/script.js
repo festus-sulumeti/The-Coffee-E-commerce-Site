@@ -24,6 +24,32 @@ function displayCoffeeItems(coffeItems){
   coffeeList.innerHTML = '';
 
   coffeItems.forEach(coffee => {
+    const coffeeItem = document.createElement('div');
+    coffeeItem.classList.add('coffee-item');
+    /**
+     * Creating the HTML structure for the coffee items and appending the coffeeList
+     * include the title, price, description and the button
+     */
 
-  })
+    coffeeItem.innerHTML = `
+       <img src="${coffee.image}" alt="${coffee.title}"/>
+       <h3>${coffee.title}</h3>
+       <p>$${coffee.price}</p>
+       <p>${coffee.description}</p>
+       <button class="add-to-cart-button" data-id="${coffee.id}">Add to cart</button>
+    `;
+
+    coffeeList.appendChild(coffeeItem);
+  });
 }
+
+//filtering the coffee items basing on the search input
+
+function filterCoffeeItems(searchTerm){
+  const filteredCoffee = coffeeData.coffee.filter(coffee => 
+    coffee.title.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+    displayCoffeeItems(filteredCoffee);
+}
+
+//Adding the coffee item to the cart
