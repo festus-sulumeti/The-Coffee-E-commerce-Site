@@ -34,7 +34,7 @@ function displayCoffeeItems(coffeItems){
     coffeeItem.innerHTML = `
        <img src="${coffee.image}" alt="${coffee.title}"/>
        <h3>${coffee.title}</h3>
-       <p>$${coffee.price}</p>
+       <p>ksh ${coffee.price}</p>
        <p>${coffee.description}</p>
        <button class="add-to-cart-button" data-id="${coffee.id}">Add to cart</button>
     `;
