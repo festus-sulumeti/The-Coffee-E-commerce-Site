@@ -8,12 +8,12 @@ let coffeeData = []; // Initialize an empty array to store coffee data
 // Function to fetch coffee data from the JSON file
 async function fetchCoffeeData() {
     try {
-        const response = await fetch('db/db.json'); // Replace 'data.json' with the actual path to your JSON file
+        const response = await fetch('db/db.json'); // fetching the data from the JSON file
         if (!response.ok) {
             throw new Error('Network response was not ok');
         }
         coffeeData = await response.json();
-        displayCoffeeItems(coffeeData.coffee); // Assuming your coffee data is stored under 'coffee' key
+        displayCoffeeItems(coffeeData.coffee); //getting the coffe data from the JSON file
     } catch (error) {
         console.error('Error fetching coffee data:', error);
     }
@@ -26,8 +26,12 @@ function displayCoffeeItems(coffeeItems) {
     coffeeItems.forEach(coffee => {
         const coffeeItem = document.createElement('div');
         coffeeItem.classList.add('coffee-item');
-        // Create HTML structure for coffee items and append to coffeeList
-        // Include title, price, description, and an "Add to Cart" button for each item
+        /**
+         * Create HTML structure for coffee items and append to coffeeList
+         *  
+         * Include title, price, description, and an "Add to Cart" button for each item
+         *  */ 
+         
         coffeeItem.innerHTML = `
             <img src="${coffee.image}" alt="${coffee.title}" />
             <h3>${coffee.title}</h3>
@@ -51,8 +55,11 @@ function filterCoffeeItems(searchTerm) {
 coffeeList.addEventListener('click', (e) => {
     if (e.target.classList.contains('add-to-cart-button')) {
         const coffeeId = parseInt(e.target.getAttribute('data-id'));
-        // Implement cart functionality here, e.g., using an array to store selected items
-        // Show the cart popup message
+        /**
+         * Implement cart functionality here, e.g., using an array to store selected items
+         * Show the cart popup message 
+         * */ 
+        
         cartPopup.style.display = 'block';
         setTimeout(() => {
             cartPopup.style.display = 'none';
