@@ -86,3 +86,14 @@ waitlistB.addEventListener('click', function(){
 
     alert("Thank you, you have now been added to the waiting list")
 })
+
+//Activating the waitlist as awaiting for the push notification
+const waitlis = document.getElementById('waitli');
+
+waitlis.addEventListener('click', function(){
+    waitlis.disabled = true;
+
+    waitlis.textContent = "Adding to the waitlist";
+
+    alert("Thank you, you have now been added to the waiting list")
+})
