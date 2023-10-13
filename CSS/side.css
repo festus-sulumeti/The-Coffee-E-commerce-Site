@@ -32,3 +32,42 @@ button{
     font-size: 0.9rem;
 }
 
+.card {
+    background-color: white;
+    padding: 2.5rem;
+    max-width: 16rem;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #2563EB;
+    margin: 0;
+}
+
+p {
+    line-height: 1.4
+}
+
+
+.cards-me {
+    background-color: white;
+    margin: 100px auto;
+    width: 300px;
+    height: 320px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.cards-me img {
+    height: 2.4rem;
+}
+
+.cards-me p {
+    margin: 20px 0;
+    line-height: 1.4;
+}
+
+.card-me span {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
