@@ -84,5 +84,5 @@ waitlistB.addEventListener('click', function(){
 
     waitlistB.textContent = "Adding to the waitlist";
 
-    alert("Thank you, you have now been added to the wait list")
+    alert("Thank you, you have now been added to the waiting list")
 })
