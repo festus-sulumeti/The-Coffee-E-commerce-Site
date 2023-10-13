@@ -68,98 +68,50 @@
 
         {
             "id" : 9,
-            "title" : "Espresso",
-            "price" : 350,
-            "description" : "Espresso is a concentrated coffee made by forcing hot ater through finely-ground coffee beans",
-            "image" : "https://i.pinimg.com/564x/45/5d/fc/455dfc03aeb68cee9e29fc11293d6874.jpg"
+            "title" : "Irish Coffee",
+            "price" : 450,
+            "description" : "Consists of hot coffee, Irish whiskey, sugar and topped with whipped cream",
+            "image" : "https://i.pinimg.com/236x/33/32/15/333215800046f3f16a61b9c03d7ef420.jpg"
         },
 
         {
             "id" : 10,
-            "title" : "Espresso",
-            "price" : 350,
-            "description" : "Espresso is a concentrated coffee made by forcing hot ater through finely-ground coffee beans",
-            "image" : "https://i.pinimg.com/564x/45/5d/fc/455dfc03aeb68cee9e29fc11293d6874.jpg"
+            "title" : "Affogato",
+            "price" : 380,
+            "description" : "Simple desert made by pouring a shot of hot Espresso over a scoop of vanilla ice cream",
+            "image" : "https://i.pinimg.com/236x/cd/4d/a8/cd4da800df3ab313da33b305098341b3.jpg"
         },
 
         {
             "id" : 11,
-            "title" : "Espresso",
-            "price" : 350,
-            "description" : "Espresso is a concentrated coffee made by forcing hot ater through finely-ground coffee beans",
-            "image" : "https://i.pinimg.com/564x/45/5d/fc/455dfc03aeb68cee9e29fc11293d6874.jpg"
+            "title" : "Vlenna Coffee",
+            "price" : 420,
+            "description" : "Creamy made with black coffee, whipped cream and chocolate shavings",
+            "image" : "https://i.pinimg.com/236x/a0/5e/77/a05e7715e40fde7b44059df8b6457122.jpg"
         },
 
         {
             "id" : 12,
-            "title" : "Espresso",
-            "price" : 350,
-            "description" : "Espresso is a concentrated coffee made by forcing hot ater through finely-ground coffee beans",
-            "image" : "https://i.pinimg.com/564x/45/5d/fc/455dfc03aeb68cee9e29fc11293d6874.jpg"
+            "title" : "Cortado",
+            "price" : 500,
+            "description" : "Spanish coffee made through combining espresso and steamed milk in equal parts",
+            "image" : "https://i.pinimg.com/564x/20/21/34/202134a71ca678a54e97be0016aa0815.jpg"
         },
 
         {
             "id" : 13,
-            "title" : "Espresso",
+            "title" : "Red Eye Coffee",
             "price" : 350,
-            "description" : "Espresso is a concentrated coffee made by forcing hot ater through finely-ground coffee beans",
-            "image" : "https://i.pinimg.com/564x/45/5d/fc/455dfc03aeb68cee9e29fc11293d6874.jpg"
+            "description" : "Also known as the 'shot in the dark' is a black coffee with a shot of espresso",
+            "image" : "https://i.pinimg.com/564x/34/02/6c/34026ce9645a5e1babb7f7d487b48c24.jpg"
         },
 
         {
             "id" : 14,
-            "title" : "Espresso",
+            "title" : "Flat white",
             "price" : 350,
-            "description" : "Espresso is a concentrated coffee made by forcing hot ater through finely-ground coffee beans",
-            "image" : "https://i.pinimg.com/564x/45/5d/fc/455dfc03aeb68cee9e29fc11293d6874.jpg"
-        },
-
-        {
-            "id" : 15,
-            "title" : "Espresso",
-            "price" : 350,
-            "description" : "Espresso is a concentrated coffee made by forcing hot ater through finely-ground coffee beans",
-            "image" : "https://i.pinimg.com/564x/45/5d/fc/455dfc03aeb68cee9e29fc11293d6874.jpg"
-        },
-
-        {
-            "id" : 16,
-            "title" : "Espresso",
-            "price" : 350,
-            "description" : "Espresso is a concentrated coffee made by forcing hot ater through finely-ground coffee beans",
-            "image" : "https://i.pinimg.com/564x/45/5d/fc/455dfc03aeb68cee9e29fc11293d6874.jpg"
-        },
-
-        {
-            "id" : 17,
-            "title" : "Espresso",
-            "price" : 350,
-            "description" : "Espresso is a concentrated coffee made by forcing hot ater through finely-ground coffee beans",
-            "image" : "https://i.pinimg.com/564x/45/5d/fc/455dfc03aeb68cee9e29fc11293d6874.jpg"
-        },
-
-        {
-            "id" : 18,
-            "title" : "Espresso",
-            "price" : 350,
-            "description" : "Espresso is a concentrated coffee made by forcing hot ater through finely-ground coffee beans",
-            "image" : "https://i.pinimg.com/564x/45/5d/fc/455dfc03aeb68cee9e29fc11293d6874.jpg"
-        },
-
-        {
-            "id" : 19,
-            "title" : "Espresso",
-            "price" : 350,
-            "description" : "Espresso is a concentrated coffee made by forcing hot ater through finely-ground coffee beans",
-            "image" : "https://i.pinimg.com/564x/45/5d/fc/455dfc03aeb68cee9e29fc11293d6874.jpg"
-        },
-
-        {
-            "id" : 20,
-            "title" : "Espresso",
-            "price" : 350,
-            "description" : "Espresso is a concentrated coffee made by forcing hot ater through finely-ground coffee beans",
-            "image" : "https://i.pinimg.com/564x/45/5d/fc/455dfc03aeb68cee9e29fc11293d6874.jpg"
-        }     
+            "description" : "Australian coffe with Espresso and steamed milk, similar to latte but with a higher coffee-to-milk ratio",
+            "image" : "https://i.pinimg.com/236x/36/37/dd/3637dd93642dfea21c1ce8fe15dab430.jpg"
+        }
     ]
 }
