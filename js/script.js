@@ -53,3 +53,21 @@ function filterCoffeeItems(searchTerm){
 }
 
 //Adding the coffee item to the cart
+coffeeList.addEventListener('click', (e) => {
+  if (e.target.classList.contains('add-to-cart-button')){
+    const coffeeId = parseInt(e.target.getElementById('data-id'));
+    /**
+     * IMplementing the cart functionality, here things to do with the array etc
+     * showing up the popup message
+     */
+    cartPopup.style.display = 'block';
+    setTimeout(() => {
+      cartPopup.style.display = 'none';
+    }, 3000);
+  }
+});
+
+//Searching fo rthe coffee items while typiung is taking place on the search bar
+coffeeSearch.addEventListener('input', (e) => {
+  filterCoffeeItems(e.target.value);
+})
