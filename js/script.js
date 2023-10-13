@@ -76,7 +76,7 @@ coffeeSearch.addEventListener('input', (e) => {
 fetchCoffeeData();
 
 
-//Activating the waitlist
+//Activating the waitlist as awaiting for the push notification
 const waitlistB = document.getElementById('waitlist');
 
 waitlistB.addEventListener('click', function(){
