@@ -6,11 +6,12 @@
     <title>E-Commerce coffee site</title>
     <link rel="stylesheet" href="./CSS/styline.css">
     <link rel="stylesheet" href="./CSS/side.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 </head>
 <body>
     <div class="container">
         <div class="main-content">
-            <h1>Walisa Coffee Shop</h1>
+            <h1><i class="uil uil-coffee"></i>Walisa Coffee Shop<i class="uil uil-coffee"></i></h1>
             <div class="search-bar">
                 <input type="text" id="coffee-search" placeholder="Search for coffee">
             </div>
@@ -19,10 +20,10 @@
             </div>
         </div>
             <div class="sidebar">
-                <h2>Wasila In depth soon To come coffee</h2>
+                <h2>Wasila In depth soon To come coffee <i class="uil uil-coffee"></i></h2>
                 <!--Sidebar content-->
                 <div class="container2">
-                    <img src="https://i.pinimg.com/564x/16/47/fa/1647facb52c7ec6ba43f01680c8dfe04.jpg" alt="">
+                    <img src="https://i.pinimg.com/564x/16/47/fa/1647facb52c7ec6ba43f01680c8dfe04.jpg" alt="best coffee">
                     <span>ksh. 220</span>
                     <h3>Coffee best</h3>
                     <p style="color: white;">A coming up surprise menu coffee, the sweetness is too good</p>
@@ -31,20 +32,24 @@
                     <br>
                     <br>
 
-                    <img src="https://i.pinimg.com/236x/ae/fb/04/aefb044073018cf73b0e55639c0fe8df.jpg" alt="">
-                    <span>ksh. 220</span>
+                    <img src="https://i.pinimg.com/236x/ae/fb/04/aefb044073018cf73b0e55639c0fe8df.jpg" alt="cuban coffee">
+                    <span>ksh. 250</span>
                     <h3>Cuban Coffee</h3>
                     <p style="color: white;">Also know as the "Cafe Cubano", is a coming up surprise menu coffee, the sweetness of a strong espresso</p>
                     <button id="waitli">wait list</button>
 
                     <br>
                     <br>
-
+                    <br>
+                    <h2>About wasila coffee shop <i class="uil uil-coffee"></i></h2>
+                    <br>
                     <div class="card">
                         <h1>About Wasila</h1>
                         <p>
                         Wasila is far by the best Coffee one stop in kenya. The only shop in Kenya that produces it users with avariety of coffee.
-                        Our coffee variety cuts across all the top best made coffees around the globe in one scope.
+                        Our coffee variety cuts across all the top best made coffees around the globe in one scope.</p>
+                        <br>
+                        <p>
                         <br>
                         We are all about ensuring that our customers are getting the best. 
                         </p>
@@ -54,10 +59,70 @@
                     <div class="cards-me">
                         <img src="https://res.cloudinary.com/thirus/image/upload/v1629308145/logos/quote-left_tsopjj_zviayy.svg" alt="">
                         <p>
-                           Great coffee is a product of whom we believe great coffee is equal to great people and special mindset
+                           We believe great coffee is equal to great people and special mindset
                         </p>
                         <span style="color: #007BFF;">Wasila Coffee Shop</span>
                     </div>
+
+                    <h2>The mind behind wasila coffee shop <i class="uil uil-coffee"></i></h2>
+                    <div class="card-li">
+                        <img class="imagery" src="https://i.pinimg.com/564x/a9/53/37/a95337c84325ccd6a555ed3a155994cb.jpg" alt="" class="profile-img">
+                        <p class="paragraph">
+                          Meet <strong>Moses Walingu</strong> the CEO of Wasila coffee Shop Kenya
+                        </p>
+                        <a href="#">View Profile</a>
+                    </div>
+                    <br>
+                    <br>
+
+                    <h2>Our Client's feedback</i></h2>
+                    <div class="container3">
+                        <img class="myimage" src="https://i.pinimg.com/236x/e2/0a/03/e20a03480dcd8c1c4b1afadf9955ba75.jpg" alt="">
+                        <div>
+                          <p class="name" style="color: white;">Richard Carl</p>
+                          <span style="color: white;">Wasali is the best place to be as they cater for all their clients</span>
+                        </div>
+                        <div class="rating">
+                          <i class="fa fa-star"></i>
+                          <span style="color: white;">5.0</span>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="container3">
+                        <img class="myimage" src="https://i.pinimg.com/236x/a9/ce/58/a9ce580bb2a928463bb0a44d0fff4398.jpg" alt="">
+                        <div>
+                          <p class="name" style="color: white;">Wambui Grace</p>
+                          <span style="color: white;">The amazement obtained from the wasali is just wow</span>
+                        </div>
+                        <div class="rating">
+                          <i class="fa fa-star"></i>
+                          <span style="color: white;">4.6</span>
+                        </div>
+                    </div>
+                    <br>
+
+                    <form id="coffeeForm">
+                        <div>
+                          <label>
+                            Full Name
+                          </label>
+                          <input type="text" name="name" placeholder="Full Name" required="required"/>
+                        </div>
+                        <div>
+                          <label>
+                            Email Address
+                          </label>
+                          <input type="email" name="email" placeholder="Email Address" required="required"/>
+                        </div>
+                        <div class="message-block">
+                          <label>
+                            Message
+                          </label>
+                          <textarea name="message" placeholder="Your Message" rows="6" required="required"></textarea>
+                        </div>
+                        <button type="submit">Send a Message</button>
+                    </form>
+                    
             </div>
     </div>
    
@@ -65,5 +130,6 @@
         Your desired coffee has been added to the cart
     </div>
     <script src="./js/script.js"></script>
+    <script src="./js/listen.js"></script>
 </body>
 </html>
