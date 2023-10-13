@@ -71,3 +71,6 @@ coffeeList.addEventListener('click', (e) => {
 coffeeSearch.addEventListener('input', (e) => {
   filterCoffeeItems(e.target.value);
 })
+
+//initializing the whole coffee list by fetching all the data from the json
+fetchCoffeeData();
