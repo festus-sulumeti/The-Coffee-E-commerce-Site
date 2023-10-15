@@ -4,6 +4,9 @@ WElcome to the Wasila site, an instant application where one can order and buy c
 
 The following content are meant to be the guide post.
 
+## The Website link
+https://festus-sulumeti.github.io/The-Coffee-E-commerce-Site/
+
 ## Table of Contents
 1. Requirements
 2. Project Setup & pre-requiste Data
@@ -51,3 +54,6 @@ As a user, you should be able to:
 
  1. Order coffee
  2. Get clarity on the whole project
+
+ ## AUTHOR
+ Festus Sulumeti
