@@ -8,7 +8,7 @@ let coffeeData = []; // Initialize an empty array to store coffee data
 // Function to fetch coffee data from the JSON file
 async function fetchCoffeeData() {
     try {
-        const response = await fetch('db/db.json'); // fetching the data from the JSON file
+        const response = await fetch('db.json'); // fetching the data from the JSON file
         if (!response.ok) {
             throw new Error('Network response was not ok');
         }
